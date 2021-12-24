@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/toasty.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>The Bangi | Home</title>
 </head>
@@ -46,28 +47,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Shop</a>
+                      <a class="nav-link" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ladies</a>
+                        <a class="nav-link" href="ladies.html">Ladies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Men</a>
+                        <a class="nav-link" href="men.html">Men</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kids</a>
+                        <a class="nav-link" href="kid.html">Kids</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Babies</a>
+                        <a class="nav-link" href="babies.html">Babies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Accessories</a>
+                        <a class="nav-link" href="javascript:void(0)">Accessories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link flash-deal" href="#"><span>Flash Sale <span>✰</span></span></a>
+                        <a class="nav-link flash-deal" href="flash.html"><span>Flash Sale <span>✰</span></span></a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -82,10 +83,10 @@
         <section class="slider-section">
             <div class="follow">
                 <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a></li>
                     <li>Follow us</li>
                 </ul>
             </div>
@@ -153,7 +154,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Rosh myer Polo Tshirt For Men','$400.00','$369.00','assets/images/men/lg_cJMQslA64Z4cqcm8tLwiGMub6mo4jSYYuOQT7PmV.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -175,7 +179,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Puma Stylish Cotton Jeans For Men','$400.00','$369.00','assets/images/men/lg_D1dMPi4AEbm8BCPignV2hnrDE6LD8hrz2RBlX3jV (1).jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -197,7 +204,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Roshy Stylish Polo Tshirt For Men','$400.00','$369.00','assets/images/men/lg_D9lBKRRmpwOp5xq3PwXQRk1I01zbN0JtOP5y2Hfs.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -219,7 +229,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Adidas Plain Cotton Pant For Men','$400.00','$369.00','assets/images/men/lg_JiWlYn2yLbEZQTjFTWlaLfLziwkk6DaUZtbtYaEp.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -245,7 +258,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Rosh myes round neck Tshirt For Women','$400.00','$369.00','assets/images/women/lg_0codCMerbdNxc6gloypqZC5sKudQGfftWdaK7irZ.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -267,7 +283,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Sana Safina 3 Piece Suit For Women','$400.00','$369.00','assets/images/women/lg_5rokxsGnaagV6AWPHT6eH2QEEq3eZNnf7r3qZ0rM.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -289,7 +308,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Trino Smooth Night Suit For Women','$400.00','$369.00','assets/images/women/lg_5VHkljnJEPj18AE1hXCYX9FOJkP8dlh8F6lpHBSV.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -311,7 +333,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Ruano Stylish Winter Jacket For Women','$400.00','$369.00','assets/images/women/lg_9UG3VwwqRF8zDGnBknpBFigpRyFy2GWMLrFCiyFM.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -337,7 +362,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Eowter Warm Round Neck Tshirt For Kids','$400.00','$369.00','assets/images/kid/lg_GwN5FEJO16luU3FsjK2rpRj39rmjTEawMzLFvnY8.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -359,7 +387,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Roshy Smooth V Neck Tshirt For Kids','$400.00','$369.00','assets/images/kid/lg_hTnCYbQ5z9JDp03j8HhYEEdDUjTI3RgxnGkLhYoX.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -381,7 +412,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Eowter Full Sleeve Warm Tshirt For Kids','$400.00','$369.00','assets/images/kid/lg_QoJW7Vwcfj8kUFheXPTSyzHPtugBIRcRsuX4KR3M.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -403,7 +437,10 @@
                                             </ul>
                                         </div>
                                         <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                        onclick="showCart('Jimaun Warm V Neck Tshirt For Kids','$400.00','$369.00','assets/images/kid/lg_sBNo8ON9vc9u0v4VF9oiSYIPDajrbYChYANRf102.jpg')" 
+                                        data-target="#exampleModalCenter">Quick View</a>
                                     </div>						
                                 </div>
                             </div>
@@ -422,6 +459,10 @@
             </div>
         </section>
     </div>
+
+    <div class="container">
+        <img src="./assets/images/home/Thumbnail-Banner-1-Long.png" alt="" width="100%" height="auto" class="mt-5">
+    </div>
     
     <div class="container">
         <section class="categories">
@@ -435,21 +476,21 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="thumb-category-men">
                                     <div class="catBtn">
-                                        <a class="btn btn-info cat-btn" href="#">Shop Men</a>
+                                        <a class="btn btn-info cat-btn" href="javascript:void(0)">Shop Men</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="thumb-category-women">
                                     <div class="catBtn">
-                                        <a class="btn btn-info cat-btn" href="#">Shop Women</a>
+                                        <a class="btn btn-info cat-btn" href="javascript:void(0)">Shop Women</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="thumb-category-kid">
                                     <div class="catBtn">
-                                        <a class="btn btn-info cat-btn" href="#">Shop Kid</a>
+                                        <a class="btn btn-info cat-btn" href="javascript:void(0)">Shop Kid</a>
                                     </div>
                                 </div>
                             </div>
@@ -510,7 +551,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Tshirt For Men','$400.00','$369.00','assets/images/men/lg_cJMQslA64Z4cqcm8tLwiGMub6mo4jSYYuOQT7PmV.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -532,7 +576,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Binoa Warm Round Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_GwN5FEJO16luU3FsjK2rpRj39rmjTEawMzLFvnY8.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -554,7 +601,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Thaiao Round Neck Tshirt For Kid','$400.00','$369.00','assets/images/women/lg_0codCMerbdNxc6gloypqZC5sKudQGfftWdaK7irZ.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -576,7 +626,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Adidas Smooth Cotton Jean For Men','$400.00','$369.00','assets/images/men/lg_D1dMPi4AEbm8BCPignV2hnrDE6LD8hrz2RBlX3jV.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -602,7 +655,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Kids','$400.00','$369.00','assets/images/kid/lg_sBNo8ON9vc9u0v4VF9oiSYIPDajrbYChYANRf102.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -624,7 +680,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer V Neck Tshirt For Kids','$400.00','$369.00','assets/images/kid/lg_sBNo8ON9vc9u0v4VF9oiSYIPDajrbYChYANRf102.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -646,7 +705,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Sana Safina Lawn 2 Piece For Women','$400.00','$369.00','assets/images/women/lg_A8NpB2TCm5lXctkAlgtVAite6tEb3B2AVmtrBvkg.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -668,7 +730,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Night Tshirt For Women','$400.00','$369.00','assets/images/women/lg_0codCMerbdNxc6gloypqZC5sKudQGfftWdaK7irZ.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -694,7 +759,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_QRPBVG90NtwJnE1fzNM7T8fucYvAZRicSipxLipp.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -716,7 +784,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Sana Safina 3 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_CbRHVNrT84M4PquxwzU1by7VyvIaY1VZrEQ8NUvi.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -738,7 +809,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Puma Warm Pure Color Jacket For Men','$400.00','$369.00','assets/images/men/lg_PmRarw0SUt96O7d5rHlfNdO0RVpZiqkStYZYXxdj.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -760,7 +834,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Prime Curve Jacket For Men','$400.00','$369.00','assets/images/men/lg_PRpB4osvKheZSdk1fGdJoa8O6ROX03GK16J9HIEe.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -807,7 +884,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_cJMQslA64Z4cqcm8tLwiGMub6mo4jSYYuOQT7PmV.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -829,7 +909,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Warm Cotton Jeans For Men','$400.00','$369.00','assets/images/men/lg_D1dMPi4AEbm8BCPignV2hnrDE6LD8hrz2RBlX3jV (1).jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -851,7 +934,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Curve Narrow Jeans For Men','$400.00','$369.00','assets/images/men/lg_D1dMPi4AEbm8BCPignV2hnrDE6LD8hrz2RBlX3jV.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -873,7 +959,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Polo Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_D9lBKRRmpwOp5xq3PwXQRk1I01zbN0JtOP5y2Hfs.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -899,7 +988,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_GkDCUNjI18OEPXGD9JGUKuUc8R8wGo8c7pSIdwIU.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -921,7 +1013,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_JiWlYn2yLbEZQTjFTWlaLfLziwkk6DaUZtbtYaEp.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -943,7 +1038,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_PRpB4osvKheZSdk1fGdJoa8O6ROX03GK16J9HIEe.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -965,7 +1063,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_QRPBVG90NtwJnE1fzNM7T8fucYvAZRicSipxLipp.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -991,7 +1092,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_ZPXUPHB76fAW6FgZrMsZ4IxlQEsblVWeExzuAYen.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1013,7 +1117,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_QRPBVG90NtwJnE1fzNM7T8fucYvAZRicSipxLipp.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1035,7 +1142,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_JiWlYn2yLbEZQTjFTWlaLfLziwkk6DaUZtbtYaEp.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1057,7 +1167,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Round Neck Tshirt For Men','$400.00','$369.00','assets/images/men/lg_zPdlbjGWe9HnPFYy3ZrrJ1uF25bTEpmVGg19EgXC.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1104,7 +1217,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Sana Safina 3 Piece Lawn Suit For Women','$400.00','$369.00','assets/images/women/lg_0codCMerbdNxc6gloypqZC5sKudQGfftWdaK7irZ.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1126,7 +1242,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Sana Safina 3 Piece Lawn Suit For Women','$400.00','$369.00','assets/images/women/lg_5rokxsGnaagV6AWPHT6eH2QEEq3eZNnf7r3qZ0rM.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1148,7 +1267,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Sana Safina 3 Piece Lawn Suit For Women','$400.00','$369.00','assets/images/women/lg_5VHkljnJEPj18AE1hXCYX9FOJkP8dlh8F6lpHBSV.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1170,7 +1292,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Sana Safina Warm Jacket For Women','$400.00','$369.00','assets/images/women/lg_PrWDJ7FvxHVdlEkGsZoexW5vlMhNVM5xR9fPbQkD.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1196,7 +1321,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Gul Ahmed 2 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_OHE1zoUVP813H78kGQ41ZlEFVXl90iuMc69iAfxI.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1218,7 +1346,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Gul Ahmed 2 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_kFkb3gu03x05lpT5gyMeczjhMWJcAjgfQRhGeqgf.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1240,7 +1371,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Gul Ahmed 2 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_KBD54kELkvoxmMfBOpQDT4mTUCl7pa29b5MpdYIO.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1262,7 +1396,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Gul Ahmed 2 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_KBD54kELkvoxmMfBOpQDT4mTUCl7pa29b5MpdYIO.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1288,7 +1425,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Firdous 3 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_CbRHVNrT84M4PquxwzU1by7VyvIaY1VZrEQ8NUvi.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1310,7 +1450,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Firdous 3 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_CbRHVNrT84M4PquxwzU1by7VyvIaY1VZrEQ8NUvi.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1332,7 +1475,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Firdous 3 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_aPRPx3UKms5zAuLFDtZQLvQ2pTqO9pTcgXKN7oeC.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1354,7 +1500,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Firdous 3 Piece Lawn For Women','$400.00','$369.00','assets/images/women/lg_A8NpB2TCm5lXctkAlgtVAite6tEb3B2AVmtrBvkg.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1401,7 +1550,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Warn V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_GwN5FEJO16luU3FsjK2rpRj39rmjTEawMzLFvnY8.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1423,7 +1575,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Warn V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_hTnCYbQ5z9JDp03j8HhYEEdDUjTI3RgxnGkLhYoX.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1445,7 +1600,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Warn V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_QoJW7Vwcfj8kUFheXPTSyzHPtugBIRcRsuX4KR3M.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1467,7 +1625,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rosh myer Warn V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_sBNo8ON9vc9u0v4VF9oiSYIPDajrbYChYANRf102.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1493,7 +1654,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rairon Round Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_tqS18Qd9omykl2DACSqvpsfutknQ3iioYYAOPGhg.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1515,7 +1679,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rairon Round Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_tqS18Qd9omykl2DACSqvpsfutknQ3iioYYAOPGhg.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1537,7 +1704,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rairon Round Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_TyysYbgKIjSn4OIwWQtgJUZhkxGWwokxKryuy7nF.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1559,7 +1729,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Rairon Round Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_GwN5FEJO16luU3FsjK2rpRj39rmjTEawMzLFvnY8.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1585,7 +1758,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Adidas Polo V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_hTnCYbQ5z9JDp03j8HhYEEdDUjTI3RgxnGkLhYoX.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1607,7 +1783,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Adidas Polo V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_QoJW7Vwcfj8kUFheXPTSyzHPtugBIRcRsuX4KR3M.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1629,7 +1808,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Adidas Polo V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_sBNo8ON9vc9u0v4VF9oiSYIPDajrbYChYANRf102.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1651,7 +1833,10 @@
                                                         </ul>
                                                     </div>
                                                     <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-                                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</a>
+                                                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" 
+                                                    onclick="showCart('Adidas Polo V Neck Tshirt For Kid','$400.00','$369.00','assets/images/kid/lg_tqS18Qd9omykl2DACSqvpsfutknQ3iioYYAOPGhg.jpg')" 
+                                                    data-target="#exampleModalCenter">Quick View</a>
                                                 </div>						
                                             </div>
                                         </div>
@@ -1705,7 +1890,7 @@
                 <div class="contact">
                     <ul>
                         <h5>Contact us</h5>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="javascript:void(0)">Contact Us</a></li>
                         <li><a href="">We Are Hiring</a></li>
                         <li><a href="">We you should Buy</a></li>
                     </ul>
@@ -1713,28 +1898,17 @@
                 <div class="help">
                     <ul>
                         <h5>Help</h5>
-                        <li><a href="#">how to order</a></li>
+                        <li><a href="javascript:void(0)">how to order</a></li>
                         <li><a href="">how to use gift card</a></li>
                         <li><a href="">returns & exchange</a></li>
                         <li><a href="">shipping details</a></li>
                         <li><a href="">privacy policy</a></li>
                     </ul>
                 </div>
-                <div class="whats-new">
-                    <ul>
-                        <h5>What's New</h5>
-                        <li><a href="#">video reviews</a></li>
-                        <li><a href="">why we do what we do</a></li>
-                        <li><a href="">customer reviews</a></li>
-                        <li><a href="">company news</a></li>
-                        <li><a href="">who made your clothes?</a></li>
-                        <li><a href="">shop instagram</a></li>
-                    </ul>
-                </div>
                 <div class="menu-cat">
                     <ul>
                         <h5>Categories</h5>
-                        <li><a href="#">Men wear</a></li>
+                        <li><a href="javascript:void(0)">Men wear</a></li>
                         <li><a href="">women wear</a></li>
                         <li><a href="">kid wear</a></li>
                         <li><a href="">make to order</a></li>
@@ -1751,9 +1925,47 @@
         </div>
     </div>
 
+    <!-- modal -->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button> -->
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Mountain Trails</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img width="100%" height="400" class="pro-image" id="pro-image" src="" alt="">
+                    </div>
+                    <div class="col-md-6 product-content">
+                        <h6><b>Product Name:</b> <span id="pro-title">Rosh Myer</span></h6>
+                        <p><b>Product Price:</b> <span><strike id="pro-cut-price">$400.00</strike> <b id="pro-price">$369.00</b></span></p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium iure hic cum explicabo magni mollitia enim beatae ea obcaecati quia, incidunt optio, sint maxime in quidem velit doloribus officiis delectus!</p>
+                        <a href="javascript:void(0)" class="custom-btn" onclick="addToCart(this)">Add to Cart</a>
+                        <button class="custom-btn">Checkout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
 </body>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/toasty.js"></script>
     <script src="./assets/js/./app.js"></script>
 </html>

@@ -177,7 +177,7 @@ header form.form-inline{
 }
 
 .categories{
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -194,7 +194,7 @@ header form.form-inline{
 .new-arrivals h3, .categories h3, .feature-products h3, .map h3, .contactus h3{
     text-transform: uppercase;
     border-bottom: 1px solid rgb(114, 151, 219);
-    width: 20%;
+    width: 30%;
     line-height: 45px;
     margin: 0 auto;
 }
@@ -213,7 +213,7 @@ header form.form-inline{
 
 .cat-sliders .carousel {
 	margin: 50px auto;
-	padding: 0 70px;
+	/* padding: 0 70px; */
 }
 .cat-sliders .carousel .carousel-item {
 	color: #747d89;
@@ -305,12 +305,20 @@ header form.form-inline{
     padding:10px 14px;
 }
 
-.cat-sliders .carousel .thumb-content .btn:hover, .subscribe button:hover, .carousel .thumb-content .btn:focus, .cat-sliders .carousel .cat-btn:hover, .cat-sliders .carousel .cat-btn:focus {
+.cat-sliders .carousel .thumb-content .btn:hover, 
+.subscribe button:hover, 
+.carousel .thumb-content .btn:focus, 
+.cat-sliders .carousel .cat-btn:hover, 
+.custom-btn:hover, .custom-btn:focus,
+.cat-sliders .carousel .cat-btn:focus {
 	color: #fff;
 	background: rgb(114, 151, 219);
 	box-shadow: none;
 }
 
+.custom-btn:hover{
+    text-decoration: none;
+}
 
 .cat-sliders .carousel .carousel-indicators {
 	bottom: -50px;
@@ -350,14 +358,14 @@ header form.form-inline{
 
 .fa-angle-left{
     color: rgb(114, 151, 219);
-    margin-right: auto;
+    margin-right: 50px;
     font-size: 40px;
 }
 
 .fa-angle-right{
     color: rgb(114, 151, 219);
     font-size: 40px;
-    margin-left: auto;
+    margin-left: 50px;
 }
 
 .my-container{
@@ -491,6 +499,19 @@ footer span{
     border-radius: 20px;
 }
 
+.custom-btn{
+    color: rgb(114, 151, 219);
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid rgb(114, 151, 219);
+    padding: 6px 14px;
+    margin-top:25px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+
 .contactus .social{
     display: flex;
     align-items: center;
@@ -556,7 +577,146 @@ footer span{
     font-weight: 600;
 }
 
+/* shop */
+
+.shop-content{
+    margin-top: 20px;
+}
+
+.shop-content h2 span{
+    color: rgb(114, 151, 219);
+    font-weight: bold;
+}
+
+.poster{
+    background-image: url('../images/shop/KkWY7W4k7NyeUJh9d0K-Hg_store_banner_image.jpeg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    position: relative;
+}
+
+.poster > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30px;
+}
+
+.poster > div h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.filter-section{
+    margin: 10px 0px;
+    line-height: 2;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 10px 0px;
+}
+
+.filters .left, .filters .right{
+    display: flex;
+}
+
+.filters .left > div, .filters .right > div{
+    margin: 0px 5px;
+}
+
+:root {
+    --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+    --gray: rgb(27, 69, 146);
+    --darkgray: rgb(114, 151, 219);
+}
+  
+select {
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+}
+select::-ms-expand {
+    display: none;
+}
+.select {
+    position: relative;
+    display: flex;
+    width: 10em;
+    height: 2em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 5px;
+    background-color: rgb(89, 136, 224);
+    transition: .25s all ease;
+    pointer-events: none;
+}
+.select:hover::after {
+    color: rgb(114, 151, 219);
+}
+
+.custom-cards{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.modal-dialog{
+    min-width: 70%;
+}
+
+.pro-image{
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+}
+
+.thumb-content h4{
+    font-size: 15px !important;
+}
+
 @media only screen and (max-width: 600px) {
+    .filters{
+        flex-direction: column;
+    }
+    .filters .select{
+        width: 100%;
+    }
+    .filters .left, .filters .right{
+        flex-direction: column;
+    }
+    .filters .left > div, .filters .right > div{
+        margin: 5px 0px;
+    }
     .track-screen{
         padding: 20px;
     }
